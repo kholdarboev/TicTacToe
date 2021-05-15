@@ -1,9 +1,9 @@
-import Square from './components/Square/Square';
-
+import Game from './components/Game';
+import './App.css';
 function App() {
   return (
     <div className="App">
-       <Square value='X' onClick={()=> alert('X')}/>
+       <Game/>
     </div>
   );
 }

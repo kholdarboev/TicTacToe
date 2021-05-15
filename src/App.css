@@ -1,0 +1,41 @@
+ .square {
+     background-color: white;
+     border: 1px solid #999;
+     float: left;
+     font-size: 45px;
+     font-weight: bold;
+     margin: -1px -1px 0 0;
+     text-align: center;
+     width: 80px;
+     height: 80px;
+     display: inline-block;
+     border-radius: 5px;
+ }
+
+ .board-row:after {
+     clear: both;
+     content: "";
+     display: table;
+
+ }
+
+ .game {
+     position: absolute;
+     top: 25%;
+     left: 40%;
+     transform: translate(-50% -50%);
+     display: flex;
+     margin: 0 auto;
+ }
+
+ ul {
+     padding-left: 30px;
+ }
+
+ .game-info {
+     margin-left: 20px;
+ }
+
+ .status {
+     margin-bottom: 10px;
+ }
